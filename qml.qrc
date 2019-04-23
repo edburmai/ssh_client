@@ -6,5 +6,6 @@
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>60759.png</file>
+        <file>Page3Form.ui.qml</file>
     </qresource>
 </RCC>

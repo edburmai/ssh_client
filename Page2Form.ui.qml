@@ -1,6 +1,7 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Controls.Styles 1.4
+import QtQuick.Window 2.2
 
 Page {
     id: page
@@ -12,7 +13,7 @@ Page {
         font.pixelSize: Qt.application.font.pixelSize * 2
         padding: 10
         Button {
-            width:  40
+            width: 40
             height: 35
             x: parent.width - 70
             y: 0
@@ -85,15 +86,6 @@ Page {
                     inputMethodHints: "ImhNoPredictiveText"
                 }
             }
-        }
-        Button {
-            x: 0
-            y: parent.height - 40
-            anchors.left: parent.left
-            anchors.leftMargin: 9
-            anchors.right: parent.right
-            anchors.rightMargin: 9
-            text: "Done"
         }
     }
 }
